@@ -12,6 +12,9 @@
 :END:
 
 ****** 1
+:PROPERTIES:
+:ID: c7ad2028-911b-4a2a-888a-e831ead2bfd5
+:END:
 
 ******* 句子填空
 
@@ -26,6 +29,9 @@
 总是说要研究研究
 
 ****** 2
+:PROPERTIES:
+:ID: 14b8aa6a-ef2f-439a-8c98-b18558c9961f
+:END:
 
 ******* 句子填空
 
@@ -40,6 +46,9 @@
 总是全班第一
 
 ****** 3
+:PROPERTIES:
+:ID: fd33e2d8-934d-4bea-abe8-ec80dd3afd14
+:END:
 
 ******* 句子填空
 
@@ -54,6 +63,9 @@
 总是那么热闹
 
 ****** 4
+:PROPERTIES:
+:ID: eea493f1-f6ae-4e8d-a670-48a46cef9325
+:END:
 
 ******* 句子填空
 
@@ -68,6 +80,9 @@
 总是大声地说笑
 
 ****** 5
+:PROPERTIES:
+:ID: 9e0cc156-23c4-4bdc-a045-ba043b71b9e1
+:END:
 
 ******* 句子填空
 
@@ -87,6 +102,9 @@
 :END:
 
 ****** 1
+:PROPERTIES:
+:ID: 14d2bac4-72dd-4785-bfe7-b75b4e78938c
+:END:
 
 ******* 句子填空
 
@@ -101,6 +119,9 @@
 终于做完
 
 ****** 2
+:PROPERTIES:
+:ID: 92d8657b-a8cc-4a5c-a51b-dc685ea97bbd
+:END:
 
 ******* 句子填空
 
@@ -115,6 +136,9 @@
 终于买到
 
 ****** 3
+:PROPERTIES:
+:ID: e44427c2-4179-4f83-9a0f-4edd01aafb9d
+:END:
 
 ******* 句子填空
 
@@ -129,6 +153,9 @@
 终于把它解决
 
 ****** 4
+:PROPERTIES:
+:ID: c6e1275a-b612-4c1a-b4f9-90137285de22
+:END:
 
 ******* 句子填空
 
@@ -143,6 +170,9 @@
 终于看到了
 
 ****** 5
+:PROPERTIES:
+:ID: 5cf8cd9f-53b2-4e68-99c5-42234a433365
+:END:
 
 ******* 句子填空
 
@@ -162,6 +192,9 @@
 :END:
 
 ****** 1
+:PROPERTIES:
+:ID: c18d20bf-f394-4106-868d-ccc6e63c75bf
+:END:
 
 ******* 句子填空
 
@@ -176,6 +209,9 @@ no value
 
 
 ****** 2
+:PROPERTIES:
+:ID: ec926a8a-1142-44f7-81f6-90cfb3fb1a47
+:END:
 
 ******* 句子填空
 
@@ -190,6 +226,9 @@ no value
 
 
 ****** 3
+:PROPERTIES:
+:ID: d1a040c1-96ff-4c7f-901d-aae03925d8a8
+:END:
 
 ******* 句子填空
 
@@ -204,6 +243,9 @@ no value
 
 
 ****** 4
+:PROPERTIES:
+:ID: 608e1628-3e64-4299-ae1c-0ff5a9284152
+:END:
 
 ******* 句子填空
 
@@ -218,6 +260,9 @@ no value
 
 
 ****** 5
+:PROPERTIES:
+:ID: 88fedf8e-b9fb-4b72-95cf-cc7b0364b9a5
+:END:
 
 ******* 句子填空
 
@@ -237,6 +282,9 @@ no value
 :END:
 
 ****** 1
+:PROPERTIES:
+:ID: 384db21d-a177-45bf-bfe0-440b70c7dd7d
+:END:
 
 ******* 句子填空
 
@@ -251,6 +299,9 @@ no value
 
 
 ****** 2
+:PROPERTIES:
+:ID: 0170bd5a-1b26-47c3-b065-f66f14f8acfa
+:END:
 
 ******* 句子填空
 
@@ -265,6 +316,9 @@ no value
 
 
 ****** 3
+:PROPERTIES:
+:ID: e7d3ef02-ad39-4613-8f4f-016e82f5b1b6
+:END:
 
 ******* 句子填空
 
@@ -279,6 +333,9 @@ no value
 
 
 ****** 4
+:PROPERTIES:
+:ID: 17d08637-7741-43fc-84ee-5c701523b5d7
+:END:
 
 ******* 句子填空
 
@@ -293,6 +350,9 @@ no value
 
 
 ****** 5
+:PROPERTIES:
+:ID: ed4b8ae9-6cd5-43ad-a6b5-97c09f7a6827
+:END:
 
 ******* 句子填空
 
@@ -320,6 +380,9 @@ no value
 :END:
 
 ****** 1
+:PROPERTIES:
+:ID: 22d4ce67-0fcc-41a6-ba12-f0e002a515b9
+:END:
 
 ******* 句子填空
 
@@ -334,6 +397,9 @@ no value
 几乎都去
 
 ****** 2
+:PROPERTIES:
+:ID: a62c1632-208e-4a84-9268-a5bd559a996b
+:END:
 
 ******* 句子填空
 
@@ -348,6 +414,9 @@ no value
 几乎都是女的
 
 ****** 3
+:PROPERTIES:
+:ID: 9ac3e4e5-2049-41dd-8abd-020517b2b513
+:END:
 
 ******* 句子填空
 
@@ -362,6 +431,9 @@ no value
 几乎
 
 ****** 4
+:PROPERTIES:
+:ID: 3629087b-5bd9-4d2d-bacd-eef717f70263
+:END:
 
 ******* 句子填空
 
@@ -376,6 +448,9 @@ no value
 几乎都是双职工
 
 ****** 5
+:PROPERTIES:
+:ID: 70720001-905a-4e64-93d0-8e3609f21b68
+:END:
 
 ******* 句子填空
 
@@ -395,6 +470,9 @@ no value
 :END:
 
 ****** 1
+:PROPERTIES:
+:ID: a5b484f0-edb4-4cb9-b09f-ff11a7718814
+:END:
 
 ******* 句子填空
 
@@ -409,6 +487,9 @@ no value
 
 
 ****** 2
+:PROPERTIES:
+:ID: 99eafd1c-acf5-4eb1-b094-60c5a35ffa59
+:END:
 
 ******* 句子填空
 
@@ -423,6 +504,9 @@ no value
 
 
 ****** 3
+:PROPERTIES:
+:ID: 124e76dc-1b5d-4f30-81f7-e82dc52c42ce
+:END:
 
 ******* 句子填空
 
@@ -437,6 +521,9 @@ no value
 
 
 ****** 4
+:PROPERTIES:
+:ID: b84d0cb2-4c30-4ec0-b35b-540dfaf3272e
+:END:
 
 ******* 句子填空
 
@@ -451,6 +538,9 @@ no value
 
 
 ****** 5
+:PROPERTIES:
+:ID: 1a53a1fe-be0e-4b59-8316-b740332fe29d
+:END:
 
 ******* 句子填空
 
@@ -470,6 +560,9 @@ no value
 :END:
 
 ****** 1
+:PROPERTIES:
+:ID: 0a93f058-ace9-4881-9b72-9d16447ed2ae
+:END:
 
 ******* 句子填空
 
@@ -484,6 +577,9 @@ no value
 
 
 ****** 2
+:PROPERTIES:
+:ID: eb9999c7-a970-4459-83e2-788f400b5ec0
+:END:
 
 ******* 句子填空
 
@@ -498,6 +594,9 @@ no value
 
 
 ****** 3
+:PROPERTIES:
+:ID: 32c302e6-702f-4124-b0fc-61c4dea2db3e
+:END:
 
 ******* 句子填空
 
@@ -512,6 +611,9 @@ no value
 
 
 ****** 4
+:PROPERTIES:
+:ID: 052ee45e-414a-43f3-bdaa-7ecccfe7b21e
+:END:
 
 ******* 句子填空
 
@@ -526,6 +628,9 @@ no value
 
 
 ****** 5
+:PROPERTIES:
+:ID: 02a30926-1dc3-4847-aada-755b88a48c46
+:END:
 
 ******* 句子填空
 
