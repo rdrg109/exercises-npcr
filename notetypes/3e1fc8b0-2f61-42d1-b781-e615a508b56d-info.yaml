@@ -1,0 +1,13 @@
+description: |
+  Given a SENTENCE with N gaps, fill the gaps by using the MANDATORY
+  WORD and the OPTIONAL WORD (if given).
+fields:
+  - name: identifier
+  - name: exercise number
+  - name: sentence with gaps
+  - name: mandatory word
+  - name: optional word
+  - name: answer 1 part 1
+  - name: answer 1 part 2
+  - name: answer 2 part 1
+  - name: answer 2 part 2

@@ -1,0 +1,58 @@
+<my-anki-field name="identifier">{{identifier}}</my-anki-field>
+<my-anki-field name="exercise-number">{{exercise number}}</my-anki-field>
+<my-anki-field name="sentence-with-gaps">{{sentence with gaps}}</my-anki-field>
+<my-anki-field name="mandatory-word">{{mandatory word}}</my-anki-field>
+<my-anki-field name="optional-word">{{optional word}}</my-anki-field>
+<my-anki-field name="answer-1-part-1">{{answer 1 part 1}}</my-anki-field>
+<my-anki-field name="answer-1-part-2">{{answer 1 part 2}}</my-anki-field>
+<my-anki-field name="answer-2-part-1">{{answer 2 part 1}}</my-anki-field>
+<my-anki-field name="answer-2-part-2">{{answer 2 part 2}}</my-anki-field>
+
+<style>
+  @import url('exercises.css');
+
+  .card {
+    font-family: arial;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    background-color: white;
+  }
+</style>
+
+<script src="anki-persistence-v1.1.8-minified.js"></script>
+<script src="exercises.js"></script>
+<script>
+  var data = getAllAnkiFields()
+  var parent = document.getElementById('qa')
+
+  var identifier = document.createElement('div')
+  identifier.textContent = data['identifier']
+
+  var counter = 1
+  var sentence = document.createElement('div')
+  sentence.innerHTML = data['sentence-with-gaps'].replace(/🟦/g, () => {
+    var node = document.createElement('input')
+    node.type = 'text'
+    node.id = 'input-' + counter
+    counter = counter + 1
+    return node.outerHTML
+  })
+
+  var mandatoryWord = document.createElement('div')
+  mandatoryWord.textContent = data['mandatory-word']
+
+  var optionalWord = document.createElement('div')
+  optionalWord.textContent = data['optional-word']
+
+  parent.appendChild(identifier)
+  parent.appendChild(sentence)
+  parent.appendChild(mandatoryWord)
+  if(data['optional-word'] !== 'no value')
+    parent.appendChild(mandatoryWord)
+
+  var nodes = document.querySelectorAll('input')
+  for(const node of nodes) {
+    addEventListenersToInputTextWhenInput([node.id])
+  }
+</script>
