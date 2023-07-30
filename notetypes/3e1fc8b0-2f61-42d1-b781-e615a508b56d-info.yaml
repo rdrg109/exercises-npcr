@@ -5,8 +5,8 @@ fields:
   - name: identifier
   - name: exercise number
   - name: sentence with gaps
-  - name: mandatory word
-  - name: optional word
+  - name: newly reviewed word
+  - name: additional word
   - name: answer 1 part 1
   - name: answer 1 part 2
   - name: answer 2 part 1

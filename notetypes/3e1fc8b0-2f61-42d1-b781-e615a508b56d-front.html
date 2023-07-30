@@ -1,8 +1,8 @@
 <my-anki-field name="identifier">{{identifier}}</my-anki-field>
 <my-anki-field name="exercise-number">{{exercise number}}</my-anki-field>
 <my-anki-field name="sentence-with-gaps">{{sentence with gaps}}</my-anki-field>
-<my-anki-field name="mandatory-word">{{mandatory word}}</my-anki-field>
-<my-anki-field name="optional-word">{{optional word}}</my-anki-field>
+<my-anki-field name="newly-reviewed-word">{{newly reviewed word}}</my-anki-field>
+<my-anki-field name="additional-word">{{additional word}}</my-anki-field>
 <my-anki-field name="answer-1-part-1">{{answer 1 part 1}}</my-anki-field>
 <my-anki-field name="answer-1-part-2">{{answer 1 part 2}}</my-anki-field>
 <my-anki-field name="answer-2-part-1">{{answer 2 part 1}}</my-anki-field>
@@ -18,6 +18,37 @@
     color: black;
     background-color: white;
   }
+
+  #exercise-container {
+    width: 80%;
+    border: 1px solid black;
+    margin: auto;
+    text-align: left;
+    padding: 10px;
+  }
+
+  #sentence {
+    display: inline-block;
+  }
+
+  #exercise-number {
+    display: inline-block;
+  }
+
+  #exercise-number:after {
+    content: '. ';
+  }
+
+  #newly-reviewed-word {
+    color: green;
+    text-align: left;
+  }
+
+  #additional-word {
+    text-align: right;
+  }
+  #additional-word:before {content: '（';}
+  #additional-word:after {content: '）';}
 </style>
 
 <script src="anki-persistence-v1.1.8-minified.js"></script>
@@ -27,29 +58,47 @@
   var parent = document.getElementById('qa')
 
   var identifier = document.createElement('div')
-  identifier.textContent = data['identifier']
+  identifier.textContent = 'Exercise ID: ' + data['identifier']
+  identifier.classList.add('exercises-exercise-identifier')
 
-  var counter = 1
+  var exerciseNumber = document.createElement('div')
+  exerciseNumber.textContent = data['exercise-number']
+  exerciseNumber.id = 'exercise-number'
+
   var sentence = document.createElement('div')
+  sentence.id = 'sentence'
+  var counter = 1
   sentence.innerHTML = data['sentence-with-gaps'].replace(/🟦/g, () => {
     var node = document.createElement('input')
     node.type = 'text'
     node.id = 'input-' + counter
+    node.classList.add('exercises-inline-input-text-for-a-single-word')
     counter = counter + 1
     return node.outerHTML
   })
 
-  var mandatoryWord = document.createElement('div')
-  mandatoryWord.textContent = data['mandatory-word']
+  var exerciseContainer = document.createElement('div')
+  exerciseContainer.id = 'exercise-container'
+
+  var instruction = document.createElement('div')
+  instruction.textContent = 'Completa las siguientes oraciones con las palabras dadas.'
+
+  var newlyReviewedWord = document.createElement('div')
+  newlyReviewedWord.textContent = data['newly-reviewed-word']
+  newlyReviewedWord.id = 'newly-reviewed-word'
 
   var optionalWord = document.createElement('div')
-  optionalWord.textContent = data['optional-word']
+  optionalWord.textContent = data['additional-word']
+  optionalWord.id = 'additional-word'
+
+  exerciseContainer.appendChild(instruction)
+  exerciseContainer.appendChild(newlyReviewedWord)
+  exerciseContainer.appendChild(exerciseNumber)
+  exerciseContainer.appendChild(sentence)
+  exerciseContainer.appendChild(optionalWord)
 
   parent.appendChild(identifier)
-  parent.appendChild(sentence)
-  parent.appendChild(mandatoryWord)
-  if(data['optional-word'] !== 'no value')
-    parent.appendChild(mandatoryWord)
+  parent.appendChild(exerciseContainer)
 
   var nodes = document.querySelectorAll('input')
   for(const node of nodes) {
