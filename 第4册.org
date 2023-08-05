@@ -401,6 +401,686 @@ no value
 
 陆雨平：谢谢你们接受我的访问。[[file:fb2b36c6-69e2-447c-9c5e-04de278ab408.flac][(audio)]]
 
+**** 生词
+:PROPERTIES:
+:NOTETYPE: 2428d9df-45bc-4c06-806a-8e4536124689
+:END:
+
+***** 1
+:PROPERTIES:
+:ID: 7c0d572c-6902-4760-b90a-230241855900
+:END:
+
+****** 简体字
+
+半边天
+
+****** 词性
+
+N
+
+****** 拼音
+
+bànbiāntiān
+
+****** 西语翻译
+
+medio cielo
+
+****** 音频
+
+7d621915-1015-42ef-9b0f-d443b4fd58f6.mp3
+
+***** 2
+:PROPERTIES:
+:ID: 51433c83-b55c-47d2-b043-f16977587fc2
+:END:
+
+****** 简体字
+
+全职
+
+****** 词性
+
+A
+
+****** 拼音
+
+quánzhí
+
+****** 西语翻译
+
+trabajo a tiempo completo
+
+****** 音频
+
+51f48554-fe87-4306-973d-5264933a4e33.mp3
+
+***** 3
+:PROPERTIES:
+:ID: ddf5749f-293f-4728-a489-cfee6f453fce
+:END:
+
+****** 简体字
+
+妇女
+
+****** 词性
+
+N
+
+****** 拼音
+
+fùnǚ
+
+****** 西语翻译
+
+mujer
+
+****** 音频
+
+659568e2-f870-457c-9681-f172895f6944.mp3
+
+***** 4
+:PROPERTIES:
+:ID: a2c25102-a290-4c28-a1a4-a47b38f2f533
+:END:
+
+****** 简体字
+
+照顾
+
+****** 词性
+
+V
+
+****** 拼音
+
+zhàogù
+
+****** 西语翻译
+
+cuidar (de)
+
+****** 音频
+
+9ce1b72a-f0c7-4af4-ac9d-46e9480f536c.mp3
+
+***** 5
+:PROPERTIES:
+:ID: bec91d76-2c03-45c5-b404-9d1963670a83
+:END:
+
+****** 简体字
+
+家务
+
+****** 词性
+
+N
+
+****** 拼音
+
+jiāwù
+
+****** 西语翻译
+
+tarea de casa
+
+****** 音频
+
+ac37aa7f-33d5-45c8-9141-59fee8794650.mp3
+
+***** 6
+:PROPERTIES:
+:ID: 00118224-8621-43c3-a9fa-694a951aed84
+:END:
+
+****** 简体字
+
+男人
+
+****** 词性
+
+N
+
+****** 拼音
+
+nánrén
+
+****** 西语翻译
+
+hombre
+
+****** 音频
+
+12da54a5-2275-4311-9cf6-144ae233cfd9.mp3
+
+***** 7
+:PROPERTIES:
+:ID: b20e307a-dadc-4805-ade6-ddf9b5940c77
+:END:
+
+****** 简体字
+
+权利
+
+****** 词性
+
+N
+
+****** 拼音
+
+quánlì
+
+****** 西语翻译
+
+derecho
+
+****** 音频
+
+ac1d77c5-f103-487c-9bd4-3259910c9a9e.mp3
+
+***** 8
+:PROPERTIES:
+:ID: 8289f2aa-d52d-4431-bd76-794dee4250aa
+:END:
+
+****** 简体字
+
+发挥
+
+****** 词性
+
+V
+
+****** 拼音
+
+fāhuī
+
+****** 西语翻译
+
+desempecho, dessarollar
+
+****** 音频
+
+b1c560cd-c4d9-46a2-b318-eb32ce3775f9.mp3
+
+***** 9
+:PROPERTIES:
+:ID: 8a3a8cb7-6c7e-472f-90ba-0d27eeaae36a
+:END:
+
+****** 简体字
+
+作用
+
+****** 词性
+
+N
+
+****** 拼音
+
+zuòyòng
+
+****** 西语翻译
+
+papel, función
+
+****** 音频
+
+13f83647-51dd-4806-93c2-d34c8904a5a2.mp3
+
+***** 10
+:PROPERTIES:
+:ID: f4e00be9-9c5b-4076-8f6b-998eebb98b1f
+:END:
+
+****** 简体字
+
+社会
+
+****** 词性
+
+N
+
+****** 拼音
+
+shèhuì
+
+****** 西语翻译
+
+sociedad
+
+****** 音频
+
+662450f2-6809-4e35-8c1c-0607c5b03195.mp3
+
+***** 11
+:PROPERTIES:
+:ID: afcae446-9bb2-4f9a-bf5e-6826c05d4b29
+:END:
+
+****** 简体字
+
+不只
+
+****** 词性
+
+Conj.
+
+****** 拼音
+
+bùzhǐ
+
+****** 西语翻译
+
+no solo, no solamente
+
+****** 音频
+
+89df629e-f706-4b19-af82-0242140e20af.mp3
+
+***** 12
+:PROPERTIES:
+:ID: 29836127-fa92-4a87-82f7-cadc7ebfc129
+:END:
+
+****** 简体字
+
+几平
+
+****** 词性
+
+Adv.
+
+****** 拼音
+
+jīhū
+
+****** 西语翻译
+
+casi
+
+****** 音频
+
+0008e194-d808-46c5-a5bc-1b428f530fb2.mp3
+
+***** 13
+:PROPERTIES:
+:ID: f3822314-5e49-4390-baee-e43193f463c5
+:END:
+
+****** 简体字
+
+双职工
+
+****** 词性
+
+N
+
+****** 拼音
+
+shuāngzhígōng
+
+****** 西语翻译
+
+matrimonio que trabaja
+
+****** 音频
+
+4627728e-b5f7-4645-b2bd-e014760ccade.mp3
+
+***** 14
+:PROPERTIES:
+:ID: 3fd5f3d7-4a9a-4462-ac75-013c098d37a5
+:END:
+
+****** 简体字
+
+家庭
+
+****** 词性
+
+N
+
+****** 拼音
+
+jiātíng
+
+****** 西语翻译
+
+familia
+
+****** 音频
+
+b0990e41-5bad-4be9-98e1-66cd551b67e9.mp3
+
+***** 15
+:PROPERTIES:
+:ID: b79b5c7b-0bad-4cde-804c-694dda70cdcd
+:END:
+
+****** 简体字
+
+要是
+
+****** 词性
+
+Conj.
+
+****** 拼音
+
+yàoshi
+
+****** 西语翻译
+
+si, en caso de (qye)
+
+****** 音频
+
+c0229780-0349-446b-8e03-67c0f004aa19.mp3
+
+***** 16
+:PROPERTIES:
+:ID: 875fb9a0-9e25-4eb8-a177-2119f6c53f81
+:END:
+
+****** 简体字
+
+看不起
+
+****** 词性
+
+V
+
+****** 拼音
+
+kànbuqǐ
+
+****** 西语翻译
+
+despreciar
+
+****** 音频
+
+aa2de6d6-32d4-40b8-827b-ec669f3d3e34.mp3
+
+***** 17
+:PROPERTIES:
+:ID: c5c0dee6-19d1-4956-9d66-4947ae55b16d
+:END:
+
+****** 简体字
+
+为了
+
+****** 词性
+
+Prep.
+
+****** 拼音
+
+wèile
+
+****** 西语翻译
+
+para, por
+
+****** 音频
+
+6d741333-4c52-479c-bd88-ccdab5df56dd.mp3
+
+***** 18
+:PROPERTIES:
+:ID: 6f2c0f41-5b42-4b13-917c-5a9d0bce5ecd
+:END:
+
+****** 简体字
+
+男女
+
+****** 词性
+
+N
+
+****** 拼音
+
+nánnǚ
+
+****** 西语翻译
+
+hombres y mujeres
+
+****** 音频
+
+354e1fec-f2b4-48fd-b39f-c980e702766a.mp3
+
+***** 19
+:PROPERTIES:
+:ID: e3a331e5-2c98-47a0-9099-709d1ea4fea8
+:END:
+
+****** 简体字
+
+就业
+
+****** 词性
+
+VO
+
+****** 拼音
+
+jiùyè
+
+****** 西语翻译
+
+conseguir trabajo, incorporarse al mercado laboral
+
+****** 音频
+
+365f7370-3326-4055-9d0f-7c3196b5d1b3.mp3
+
+***** 20
+:PROPERTIES:
+:ID: 11167515-9014-401e-a44d-9dab59daf225
+:END:
+
+****** 简体字
+
+公平
+
+****** 词性
+
+A
+
+****** 拼音
+
+gōngpíng
+
+****** 西语翻译
+
+justo
+
+****** 音频
+
+ffbf20f5-0fd7-40ac-aa4a-561bd5556fa3.mp3
+
+***** 21
+:PROPERTIES:
+:ID: 60c8306b-c675-436a-bb8d-e365e268a2e6
+:END:
+
+****** 简体字
+
+平等
+
+****** 词性
+
+A
+
+****** 拼音
+
+píngděng
+
+****** 西语翻译
+
+igual
+
+****** 音频
+
+b2e46021-73cc-49a8-a0d1-471ec0ba1baf.mp3
+
+***** 22
+:PROPERTIES:
+:ID: 7ac8fecd-4e29-41f3-83b4-89c3f82b79bf
+:END:
+
+****** 简体字
+
+单位
+
+****** 词性
+
+N
+
+****** 拼音
+
+dānwèi
+
+****** 西语翻译
+
+unidad, entidad (sitio de trabajo, organización, etc.)
+
+****** 音频
+
+93677e8e-3305-4627-8d00-8d3975f6fcc7.mp3
+
+***** 23
+:PROPERTIES:
+:ID: 6bcd41f6-25b3-4007-9ff1-67f1510be9b6
+:END:
+
+****** 简体字
+
+竞争
+
+****** 词性
+
+V
+
+****** 拼音
+
+jìngzhēng
+
+****** 西语翻译
+
+competir
+
+****** 音频
+
+d2e048f7-d4d3-42e7-937a-012b0ca1d568.mp3
+
+***** 24
+:PROPERTIES:
+:ID: 000faea7-fdc0-4f6b-ad37-2281c4f0f5b3
+:END:
+
+****** 简体字
+
+机会
+
+****** 词性
+
+N
+
+****** 拼音
+
+jīhuì
+
+****** 西语翻译
+
+oportunidad, ocasión
+
+****** 音频
+
+f6bf86d1-1332-4ed4-b0c1-64f94bd9c42a.mp3
+
+***** 25
+:PROPERTIES:
+:ID: 5fdc9daa-97c4-406e-b92b-71b2fb2adcc0
+:END:
+
+****** 简体字
+
+只有
+
+****** 词性
+
+Conj.
+
+****** 拼音
+
+zhǐyǒu
+
+****** 西语翻译
+
+solo, solamente
+
+****** 音频
+
+b9231e90-e2ee-47a4-a519-3bc153f5af03.mp3
+
+***** 26
+:PROPERTIES:
+:ID: 9713e077-e377-4acb-bc76-5bcfc839fa27
+:END:
+
+****** 简体字
+
+方面
+
+****** 词性
+
+N
+
+****** 拼音
+
+fāngmiàn
+
+****** 西语翻译
+
+aspecto, lado
+
+****** 音频
+
+df1f94cc-c5dc-4324-8dfa-9c02afa3a8ae.mp3
+
+***** 27
+:PROPERTIES:
+:ID: dd1645a5-4bfa-4050-91c1-7d57b0d1dd51
+:END:
+
+****** 简体字
+
+同样
+
+****** 词性
+
+A
+
+****** 拼音
+
+tóngyàng
+
+****** 西语翻译
+
+mismo, igual, similar
+
+****** 音频
+
+cdb4d488-4cdb-4d39-80b6-4996c4f5b014.mp3
+
 *** 二
 
 
