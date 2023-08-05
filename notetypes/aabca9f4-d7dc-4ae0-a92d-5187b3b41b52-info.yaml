@@ -2,4 +2,5 @@ description: |
   Given a text with audios, hide a single sentence and repeat it every
   3 seconds.
 fields:
-  - name: Front
+  - name: audio identifier
+  - name: content
