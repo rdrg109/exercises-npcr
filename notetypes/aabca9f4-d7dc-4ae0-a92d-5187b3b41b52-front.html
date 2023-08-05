@@ -1,0 +1,211 @@
+<div id="missing-characters">
+</div>
+
+<button onclick="showMissingCharacters()">Show missing characters</button>
+
+<div id="text">
+  {{Front}}
+</div>
+
+<style>
+.card {
+    font-family: ;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    background-color: white;
+}
+
+#text {
+  text-align: left;
+}
+
+.line {
+  line-height: 30px;
+}
+
+.sentence {
+  text-decoration: underline;
+  text-underline-offset: 6px;
+  margin: 4px;
+}
+
+.sentence:hover {
+  background-color: yellow;
+}
+
+.missing-part {
+  background-color: red;
+  padding: 0px 20px;
+}
+
+.missing-character {
+background-image: url("data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100'%3E%3Cpolygon points='0 0,100 0, 100 100, 0 100, 0 0' style='stroke: black; fill-opacity: 0%25; stroke-width: 0.5; stroke-dasharray: 3;'/%3E%3Cpolygon points='50 0,100 50, 50 100, 0 50, 50 0' style='stroke: black; fill-opacity: 0%25; stroke-width: 0.5; stroke-dasharray: 3;'/%3E%3Cpolygon points='25 25, 75 25, 75 75, 25, 75, 25 25' style='stroke: black; fill-opacity: 0%25; stroke-width: 0.5; stroke-dasharray: 3;'/%3E%3Cpolygon points='0 0,100 100' style='stroke: black; fill-opacity: 0%25; stroke-width: 0.5; stroke-dasharray: 2 5;'/%3E%3Cpolygon points='0 100,100 0' style='stroke: black; fill-opacity: 0%25; stroke-width: 0.5; stroke-dasharray: 2 5;'/%3E%3Cpolygon points='0 50,100 50' style='stroke: black; fill-opacity: 0%25; stroke-width: 0.5; stroke-dasharray: 3;'/%3E%3Cpolygon points='50 0,50 100' style='stroke: black; fill-opacity: 0%25; stroke-width: 0.5; stroke-dasharray: 3;'/%3E%3C/svg%3E%0A");
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-size: 90pt;
+  padding: 15px;
+  background-position: center 13pt;
+  font-family: STKaiti;
+}
+</style>
+
+<script>
+function clearAllIntervals() {
+  // This function was retrieved from https://gist.github.com/mcenirm/4165198
+  (function(w) {
+    w = w || window
+    var i = w.setInterval(function(){},100000)
+    while(i>=0) {
+      w.clearInterval(i--)
+    }
+  }
+  )()
+}
+
+function encloseEachLineInDiv() {
+  const text = document.getElementById('text')
+  const children = text.childNodes
+  for(var i=0; i<children.length; ++i) {
+    let child = children[i]
+    if(child.nodeType == 3) {
+      const node = document.createElement('div')
+      node.classList.add('line')
+      // We execute .trim() because the first line of an Anki field sometimes
+      // have spaces.
+      node.textContent = child.data.trim()
+      child.parentNode.replaceChild(node, child)
+    }
+  }
+  //Remove <br> that are automatically added by Anki
+  const brNodes = text.getElementsByTagName('br')
+  while(brNodes[0])
+    brNodes[0].parentNode.removeChild(brNodes[0])
+
+}
+
+function replaceAudiosWithCustomTag() {
+  var text = document.getElementById('text')
+  text.innerHTML = text.innerHTML.replace(
+    /\[([^\]]+)\]/g,
+    (all, c1) => {
+      return '<my-audio filename="' + c1 + '"></my-audio>'
+    }
+  )
+}
+
+
+function createSpanForEachSegment() {
+  const text = document.getElementById('text')
+  const divs = text.querySelectorAll('div')
+  for(div of divs) {
+    const children = div.childNodes
+    console.log(children)
+    for(var i=0; i<children.length; ++i) {
+      let child = children[i]
+      if(child.nodeType == 3) {
+        // Check if the current children is the name of the character
+        // that is the speaker of the corresponding line. If that''s the case,
+        // skip that part because we are not interested in adding placeholders
+        // to the name of characters.
+        if(i == 0 && /^.{2,3}：/.test(child.nodeValue)) {
+          const match = child.nodeValue.match(/^([^：]{2,3})(：)(.+)/)
+          const node1 = document.createElement('span')
+          const node2 = document.createElement('span')
+          const node3 = document.createElement('span')
+          node1.textContent = match[1]
+          node2.textContent = '：'
+          node3.textContent = match[3]
+          node3.classList.add('sentence')
+          // Insert part of dialogue
+          child.parentNode.replaceChild(node3, child)
+          // Insert ellipsis
+          node3.parentNode.insertBefore(node2, node3)
+          // Insert name of the character that reads that part
+          node2.parentNode.insertBefore(node1, node2)
+        }
+        else {
+          const node = document.createElement('span')
+          node.textContent = child.data
+          node.classList.add('sentence')
+          child.parentNode.replaceChild(node, child)
+        }
+      }
+    } 
+  }
+}
+
+function makeEachSpanClickable() {
+  const audios = document.querySelectorAll('my-audio')
+  for(audio of audios) {
+    const span = audio.previousSibling
+    span.addEventListener('click', function(a) {
+      const node = a.path[0]
+      const nodeAudio = node.nextSibling
+      const filename = nodeAudio.getAttribute('filename')
+      var audio = new Audio(filename)
+      audio.play()
+    })
+  }
+}
+
+function hideTextToPractice() {
+  // Find node by text. Retrieved from https://stackoverflow.com/questions/58052522
+  const node = document.evaluate(
+    `//*[contains(text(), "🟦")]`,
+    document,
+    null,
+    XPathResult.FIRST_ORDERED_NODE_TYPE,
+    null
+  ).singleNodeValue
+  node.classList.remove('sentence')
+  node.classList.add('missing-part')
+  missingPartStoreCharacters(node.textContent)
+  missingPartStoreAudio(node.nextSibling)
+  node.textContent = ' '
+}
+
+function missingPartStoreCharacters(text) {
+  var text = text.replace(/(，|。|🟦)/g, '')
+  missingCharacters = text
+}
+
+function missingPartStoreAudio(node) {
+  missingPartAudioFilename = node.getAttribute('filename')
+}
+
+function showMissingCharacters() {
+  const node = document.getElementById('missing-characters')
+  for(var i=0; i<missingCharacters.length; i++) {
+    var span = document.createElement('span')
+    span.innerText = missingCharacters[i]
+    span.classList.add('missing-character')
+    node.appendChild(span)
+  }
+}
+
+function playAudioMissingPart() {
+  var audio = new Audio(missingPartAudioFilename)
+  audio.play()
+}
+
+function missingPartSetInterval() {
+  missingPartInterval = setInterval(function() {
+    var audio = new Audio(missingPartAudioFilename)
+    audio.play()
+ }, 8000)
+}
+
+missingCharacters = ''
+missingPartAudioFilename = ''
+missingPartInterval = null
+
+clearAllIntervals()
+encloseEachLineInDiv()
+replaceAudiosWithCustomTag()
+createSpanForEachSegment()
+makeEachSpanClickable()
+hideTextToPractice()
+playAudioMissingPart()
+missingPartSetInterval()
+</script>
