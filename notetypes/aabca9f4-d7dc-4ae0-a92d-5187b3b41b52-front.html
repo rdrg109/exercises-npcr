@@ -87,7 +87,7 @@ function encloseEachLineInDiv() {
 function replaceAudiosWithCustomTag() {
   var text = document.getElementById('text')
   text.innerHTML = text.innerHTML.replace(
-    /\[([^\]]+)\]/g,
+    /\[\[file:([^\]]+)\]\[\(audio\)\]\]/g,
     (all, c1) => {
       return '<my-audio filename="' + c1 + '"></my-audio>'
     }
