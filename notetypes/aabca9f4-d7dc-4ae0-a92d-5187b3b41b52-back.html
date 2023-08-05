@@ -1,7 +1,12 @@
-<div id="my-node"></div>
-
 {{FrontSide}}
 
 <script>
-  document.getElementById('my-node').textContent = Persistence.getItem('missing-characters')
+
+  var parent = document.getElementById('qa')
+
+  var missingCharacters = document.createElement('div')
+  missingCharacters.textContent = Persistence.getItem('missing-characters')
+  missingCharacters.classList.add('missing-characters')
+
+  parent.insertBefore(missingCharacters, parent.firstChild)
 </script>
