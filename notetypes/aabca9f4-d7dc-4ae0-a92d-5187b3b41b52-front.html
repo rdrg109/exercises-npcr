@@ -1,8 +1,3 @@
-<div id="missing-characters">
-</div>
-
-<button onclick="showMissingCharacters()">Show missing characters</button>
-
 <div id="text">
   {{Front}}
 </div>
@@ -50,6 +45,7 @@ background-image: url("data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/
 }
 </style>
 
+<script src="anki-persistence-v1.1.8-minified.js"></script>
 <script>
 function clearAllIntervals() {
   // This function was retrieved from https://gist.github.com/mcenirm/4165198
@@ -81,7 +77,6 @@ function encloseEachLineInDiv() {
   const brNodes = text.getElementsByTagName('br')
   while(brNodes[0])
     brNodes[0].parentNode.removeChild(brNodes[0])
-
 }
 
 function replaceAudiosWithCustomTag() {
@@ -131,7 +126,7 @@ function createSpanForEachSegment() {
           child.parentNode.replaceChild(node, child)
         }
       }
-    } 
+    }
   }
 }
 
@@ -160,28 +155,9 @@ function hideTextToPractice() {
   ).singleNodeValue
   node.classList.remove('sentence')
   node.classList.add('missing-part')
-  missingPartStoreCharacters(node.textContent)
-  missingPartStoreAudio(node.nextSibling)
+  Persistence.setItem('missing-characters', node.textContent.replace(/(，|。|🟦)/g, ''))
+  Persistence.setItem('missing-characters-audio', node.nextSibling.getAttribute('filename'))
   node.textContent = ' '
-}
-
-function missingPartStoreCharacters(text) {
-  var text = text.replace(/(，|。|🟦)/g, '')
-  missingCharacters = text
-}
-
-function missingPartStoreAudio(node) {
-  missingPartAudioFilename = node.getAttribute('filename')
-}
-
-function showMissingCharacters() {
-  const node = document.getElementById('missing-characters')
-  for(var i=0; i<missingCharacters.length; i++) {
-    var span = document.createElement('span')
-    span.innerText = missingCharacters[i]
-    span.classList.add('missing-character')
-    node.appendChild(span)
-  }
 }
 
 function playAudioMissingPart() {
@@ -196,16 +172,13 @@ function missingPartSetInterval() {
  }, 5000)
 }
 
-missingCharacters = ''
-missingPartAudioFilename = ''
 missingPartInterval = null
-
 clearAllIntervals()
 encloseEachLineInDiv()
 replaceAudiosWithCustomTag()
 createSpanForEachSegment()
 makeEachSpanClickable()
 hideTextToPractice()
-playAudioMissingPart()
-missingPartSetInterval()
+<!-- playAudioMissingPart() -->
+<!-- missingPartSetInterval() -->
 </script>
