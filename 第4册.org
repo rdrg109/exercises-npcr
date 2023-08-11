@@ -364,8 +364,6 @@ no value
 
 ******* 答案
 
-
-
 * 第40课
 
 ** 一、课文
@@ -1883,3 +1881,546 @@ no value
 ******** 答案
 
 在事业中
+
+* 第41课
+
+** 一、课文
+
+*** 一
+
+**** 内容
+:PROPERTIES:
+:NOTETYPE: aabca9f4-d7dc-4ae0-a92d-5187b3b41b52
+:END:
+
+王小云：宋华，毕业以后，[[file:966d7eb7-336c-4959-b71f-e8f6430f3dd4.flac][(audio)]]你打算干什么？[[file:bafe26c9-92d9-455c-9062-061676da25a2.flac][(audio)]]
+
+宋华：我想先去一个律师事务所干几年，[[file:86c53557-9661-4aff-ba62-55275855bb40.flac][(audio)]]熟悉熟悉这方面的情况，[[file:d676090f-67e2-43c2-a38a-6816b053586b.flac][(audio)]]然后自己开个律师事务所。[[file:a5986f69-a61f-442c-9451-0a197733b065.flac][(audio)]]
+
+王小云：这个想法很好啊。[[file:b39c015a-e5ca-45a8-ae3e-734be284a8fa.flac][(audio)]]在咱们国家，[[file:136cf1ae-1d98-4c9a-bac9-9420a5e0565d.flac][(audio)]]律师算是很新的职业。[[file:564545d9-e53e-4e0e-b911-bfb0fb84fc41.flac][(audio)]]有不少人还很怕打官司，[[file:78ffa49f-4941-4bb2-99f5-727c59839ad8.flac][(audio)]]他们也不太了解[[file:716f4b0d-747b-44ec-9246-3557ed5d783b.flac][(audio)]]怎样请律师帮助自己打官司。[[file:a39b45a5-2e6d-4853-8b59-3df5b0464010.flac][(audio)]]不过，现在大家已经开始注意[[file:ed41ada9-6e3b-428f-b969-fc08687fa012.flac][(audio)]]用法律来保护自己的权利了，[[file:ecb92818-a059-424e-b630-dc2db0fc39e2.flac][(audio)]]我想人们会越来越需要律师。[[file:784416e0-fd6a-416e-b178-1da6415e5774.flac][(audio)]]
+
+宋华：可是我爸爸的看法就不一样。[[file:119fc335-835a-42f0-9bc9-526d50795ecd.flac][(audio)]]他认为我应该去考国家公务员，[[file:1613d400-1db9-43c3-860f-f2746d46bf7a.flac][(audio)]]到政府部门工作，[[file:925176ab-2e8a-47cf-8eef-b46efdc4893c.flac][(audio)]]我妈妈也让我到国营公司找个工作，[[file:75d4bc29-00b2-47c8-b0d5-48b7a23a0775.flac][(audio)]]他们都不同意我当律师。[[file:6f2f3300-3cea-44d9-84b6-a70d137d31fe.flac][(audio)]]他们说律师靠帮别人打官司挣钱，[[file:b10de59b-1bd2-4d2a-98c6-16e9cf1e4cd7.flac][(audio)]]不像公务员那样，[[file:ee2f957e-2fd9-4d54-8f8e-615558c93f16.flac][(audio)]]有稳定的收入。[[file:2f1e9dbf-cecd-4f90-8e68-8b206e30f0dc.flac][(audio)]]
+
+王小云：对，我想起来了，[[file:5d93e63c-279f-4317-960b-a3ba30b8b303.flac][(audio)]]上次去你家的时候，[[file:dc1b29c6-944e-4fbe-9b4f-2c784325cc2f.flac][(audio)]]他们说过这个意思。[[file:a1392fe5-ce5c-4b4a-8239-8f796f79cac4.flac][(audio)]]你同意这种看法吗？[[file:78957504-787d-45be-900a-ae71b0246b18.flac][(audio)]]
+
+宋华：当然不同意。[[file:73c49c97-f46c-4fec-a053-0bd5d1446ddf.flac][(audio)]]我爸爸希望我找个稳定的工作，[[file:4c1cb21a-e6a0-436b-b044-486a83b75b3b.flac][(audio)]]也就是说，拿国家的工资，[[file:4ff59436-2ce9-4b58-bbca-1e6867c4fdfb.flac][(audio)]]平平安安地过日子。[[file:c803e65f-d41b-490f-ac97-efea48b3d4f2.flac][(audio)]]
+
+王小云：他们那一代人，[[file:c4f38188-0ec2-4779-ab4e-2b52b9235ea4.flac][(audio)]]大学毕业以后都由国家分配工作。[[file:47e792ac-b640-457b-b75d-255765c1f2bc.flac][(audio)]]国家让你去哪儿就去哪儿。[[file:038dce2a-7439-4014-92e6-ad6d461788bf.flac][(audio)]]即使自己有些想法，[[file:866c5c37-56c2-459e-9c1b-c1bde67f0758.flac][(audio)]]也得服从国家分配。[[file:d0f6c5a7-0512-49dc-a0a5-2f37f6280a7f.flac][(audio)]]
+
+宋华：确实是这样。[[file:58b33863-c85e-4ab0-9896-03bb0b526e4e.flac][(audio)]]关于就业的问题，[[file:0b9237c5-cf95-41db-a039-582b9ba9b147.flac][(audio)]]我们跟上一代人的想法不一样，[[file:41ac28d0-1785-4139-a7a7-c80662c27fd6.flac][(audio)]]我们首先想到怎样去做自己喜欢的工作，[[file:47cd937e-d7cd-41ed-8779-7a8d30c5bc8e.flac][(audio)]]能不能实现自己的理想。[[file:3b1c9f14-dfd1-4415-97ea-13a8a32212a0.flac][(audio)]]我们希望生活中有挑战，[[file:12742bb9-2502-449c-a3fb-e34bef5e3d1f.flac][(audio)]]工作中有竞争。[[file:0147aaa2-ea4e-4793-9c1f-a4cd53a80ef4.flac][(audio)]]
+
+王小云：还有，能得到比较满意的收入。[[file:673532d2-a878-425b-b34b-a1ac82969462.flac][(audio)]]
+
+宋华：对。[[file:437b27db-4620-4d98-8b94-f264083d173c.flac][(audio)]]我爸爸妈妈听说我打算以后自己开事务所，[[file:67e62b48-2196-4659-967b-9c7066bdc91b.flac][(audio)]]就更着急了。[[file:b2f5a60f-d317-4947-a469-6d9d297f6533.flac][(audio)]]
+
+王小云：不管老人怎么看，[[file:ebefd1ad-251e-4bb5-8ec6-17969ff55c0b.flac][(audio)]]你都应该努力实现自己的理想。[[file:66c2d1a1-dca1-4407-a641-b7852e97b2cd.flac][(audio)]]
+
+宋华：那当然。[[file:d93edc3c-84d3-405e-9f38-9b7455f62dcc.flac][(audio)]]现在企业和公司也都需要有自己的律师，[[file:c2cc8732-0fcd-4f3b-80d0-e6187f1fae16.flac][(audio)]]所以律师这个职业[[file:fa26dcb7-6916-47d3-8492-1ae718eeff8b.flac][(audio)]]一天比一天受欢迎。[[file:56e6660e-422a-4a2d-8557-e492f12bd72c.flac][(audio)]]我想只要努力工作，[[file:c8fc6735-c3fb-4846-8b9c-b4bd61cd6ec1.flac][(audio)]]就一定会有一个好的前途。[[file:85d8f647-e87f-416e-bc01-d970a731f78c.flac][(audio)]]小云，你有什么打算？[[file:ab60eaed-19c8-482d-88c6-1c69efecd7a3.flac][(audio)]]
+
+王小云：我打算先考研究生。[[file:e6f480a0-0357-44f4-a53f-38f53861d4fd.flac][(audio)]]不过，现在我还没有决定。[[file:f8fa737e-3615-4732-baf6-fb1dee0da298.flac][(audio)]]要是有合适的工作，[[file:7195e660-382d-4948-917b-3f7ea4fd7058.flac][(audio)]]我就先干起来。[[file:630d28ec-1bfb-48a5-86f0-7089618603c5.flac][(audio)]]
+
+**** 生词
+:PROPERTIES:
+:NOTETYPE: 2428d9df-45bc-4c06-806a-8e4536124689
+:END:
+
+***** 1
+:PROPERTIES:
+:ID: 3284562d-6cd1-4e45-bc91-757242e423a5
+:END:
+
+****** 简体字
+
+律师
+
+****** 词性
+
+N
+
+****** 拼音
+
+lǜshī
+
+****** 西语翻译
+
+abogado
+
+****** 音频
+
+6833c349-1c55-441a-84ac-0cc88c04459b.mp3
+
+***** 2
+:PROPERTIES:
+:ID: 6891f23a-97f4-4b78-8e86-5b3f5a972aa7
+:END:
+
+****** 简体字
+
+事务所
+
+****** 词性
+
+N
+
+****** 拼音
+
+shìwùsuǒ
+
+****** 西语翻译
+
+bufete, oficina
+
+****** 音频
+
+11e462d9-3976-4cbf-adea-675efa1d1246.mp3
+
+***** 3
+:PROPERTIES:
+:ID: 59b8f275-9be8-4918-bf76-8199585fa9c7
+:END:
+
+****** 简体字
+
+熟愁
+
+****** 词性
+
+V
+
+****** 拼音
+
+shúxi
+
+****** 西语翻译
+
+trabajo, tarea, asunto
+
+****** 音频
+
+e6eadf67-5f9b-4781-bb87-2a7eba00411c.mp3
+
+***** 4
+:PROPERTIES:
+:ID: dbf400b5-7dc3-4f9f-908f-75ca8cbd2ea6
+:END:
+
+****** 简体字
+
+想法
+
+****** 词性
+
+N
+
+****** 拼音
+
+xiǎngfǎ
+
+****** 西语翻译
+
+idea, opinión, pensamiento
+
+****** 音频
+
+14edd7e8-bd49-4d66-96bb-26b205c759d0.mp3
+
+***** 5
+:PROPERTIES:
+:ID: 00ff12f9-0451-44fa-9dfd-58dede5ae13f
+:END:
+
+****** 简体字
+
+打官司
+
+****** 词性
+
+V O
+
+****** 拼音
+
+dǎ guānsi
+
+****** 西语翻译
+
+litigar, entablar un pleito contra alguien
+
+****** 音频
+
+553dc666-6289-4543-8489-b2d59fdbee5e.mp3
+
+***** 6
+:PROPERTIES:
+:ID: 80ffd2b7-5e23-4550-ba18-a022d3009092
+:END:
+
+****** 简体字
+
+法律
+
+****** 词性
+
+N
+
+****** 拼音
+
+fǎlǜ
+
+****** 西语翻译
+
+ley
+
+****** 音频
+
+410a1753-6476-4181-ac2d-732792478756.mp3
+
+***** 7
+:PROPERTIES:
+:ID: d300f308-9199-456f-8345-831c993e01d4
+:END:
+
+****** 简体字
+
+需要
+
+****** 词性
+
+V
+
+****** 拼音
+
+xūyào
+
+****** 西语翻译
+
+necesitar, requerir
+
+****** 音频
+
+3d532bed-bf5b-49a0-a39e-f3b47e9ca113.mp3
+
+***** 8
+:PROPERTIES:
+:ID: 269ba69d-dda0-48eb-b234-367bb75e4260
+:END:
+
+****** 简体字
+
+公务员
+
+****** 词性
+
+N
+
+****** 拼音
+
+gōngwùyuán
+
+****** 西语翻译
+
+funcionario del estado, público
+
+****** 音频
+
+6bdbbeb0-2108-447a-94d8-4e9c281e135f.mp3
+
+***** 9
+:PROPERTIES:
+:ID: 4073d76d-ff77-490e-9659-797f06df8d83
+:END:
+
+****** 简体字
+
+国营
+
+****** 词性
+
+A
+
+****** 拼音
+
+guóyíng
+
+****** 西语翻译
+
+de la administración estatal
+
+****** 音频
+
+16be7ae0-f282-4c1e-8fcf-be43f9ac2cef.mp3
+
+***** 10
+:PROPERTIES:
+:ID: 3032195c-9fe5-4976-b2a7-d610a0f8a6c9
+:END:
+
+****** 简体字
+
+同意
+
+****** 词性
+
+V
+
+****** 拼音
+
+tóngyì
+
+****** 西语翻译
+
+estar de acuerdo
+
+****** 音频
+
+ac89ffe7-ee9e-4049-9702-7b78993b95f1.mp3
+
+***** 11
+:PROPERTIES:
+:ID: 4dc28dcc-190b-44a1-8b3b-d26a9253d938
+:END:
+
+****** 简体字
+
+靠
+
+****** 词性
+
+V
+
+****** 拼音
+
+kào
+
+****** 西语翻译
+
+depender de, apoyarse en
+
+****** 音频
+
+6961a291-0b19-4f77-9135-81b2323f20e5.mp3
+
+***** 12
+:PROPERTIES:
+:ID: 6e4f9fe9-855f-46fc-95b2-f1a6199115b5
+:END:
+
+****** 简体字
+
+平安
+
+****** 词性
+
+A
+
+****** 拼音
+
+píng’ān
+
+****** 西语翻译
+
+sano y salvo, sin contratiempos
+
+****** 音频
+
+b9311750-29f2-4b65-b2f5-20cc794f57da.mp3
+
+***** 13
+:PROPERTIES:
+:ID: af7a0b63-a2d7-44a3-aece-a88b70f29fcd
+:END:
+
+****** 简体字
+
+代
+
+****** 词性
+
+N
+
+****** 拼音
+
+dài
+
+****** 西语翻译
+
+generación
+
+****** 音频
+
+5c879ecc-ca88-4f4d-85dc-536eae5c8e0b.mp3
+
+***** 14
+:PROPERTIES:
+:ID: 105c67a9-d4aa-4ff6-8ff0-b4e3df0bc98b
+:END:
+
+****** 简体字
+
+分配
+
+****** 词性
+
+V
+
+****** 拼音
+
+fēnpèi
+
+****** 西语翻译
+
+distribuir
+
+****** 音频
+
+a2b255a9-76b5-4cca-960e-7cc66655f185.mp3
+
+***** 15
+:PROPERTIES:
+:ID: 9b276641-dced-41d0-b86e-a9aec3a4ff25
+:END:
+
+****** 简体字
+
+即使
+
+****** 词性
+
+Conj.
+
+****** 拼音
+
+jíshǐ
+
+****** 西语翻译
+
+aunque, a pesar de
+
+****** 音频
+
+4530cbba-0715-48dd-9649-fe4a3e484ab7.mp3
+
+***** 16
+:PROPERTIES:
+:ID: 9d071204-f40d-4266-9c25-62b33f2489e0
+:END:
+
+****** 简体字
+
+关于
+
+****** 词性
+
+Prep.
+
+****** 拼音
+
+guānyú
+
+****** 西语翻译
+
+sobre
+
+****** 音频
+
+77180974-ff09-4821-be00-ddb2387bbe7d.mp3
+
+***** 17
+:PROPERTIES:
+:ID: 75572792-17d4-4601-8b7a-32adb5c5ce48
+:END:
+
+****** 简体字
+
+挑战
+
+****** 词性
+
+V
+
+****** 拼音
+
+tiǎozhàn
+
+****** 西语翻译
+
+desafiar
+
+****** 音频
+
+460bd094-dd4f-4efb-92f0-e93a7ddc3bc8.mp3
+
+***** 18
+:PROPERTIES:
+:ID: 3bbf663f-49d6-4805-8753-3ff94fdd5fac
+:END:
+
+****** 简体字
+
+满意
+
+****** 词性
+
+A
+
+****** 拼音
+
+mǎnyì
+
+****** 西语翻译
+
+satisfecho, contento
+
+****** 音频
+
+3785080f-e25d-43c0-b34c-410cb9767a48.mp3
+
+***** 19
+:PROPERTIES:
+:ID: b395c668-a30d-42b0-acd9-8bc363d0f9ab
+:END:
+
+****** 简体字
+
+不管
+
+****** 词性
+
+Conj.
+
+****** 拼音
+
+bùguǎn
+
+****** 西语翻译
+
+no importa (qué, cómo, etc.), sea lo que sea
+
+****** 音频
+
+6f6fdc6e-c9ef-4d7c-9051-2bc9bc779c77.mp3
+
+***** 20
+:PROPERTIES:
+:ID: b090d692-db92-4d67-8337-1c6b57a7da0c
+:END:
+
+****** 简体字
+
+前途
+
+****** 词性
+
+N
+
+****** 拼音
+
+qiántú
+
+****** 西语翻译
+
+futuro, perspectiva
+
+****** 音频
+
+0ef022f0-e54a-4789-b8e7-248c36974c43.mp3
+
