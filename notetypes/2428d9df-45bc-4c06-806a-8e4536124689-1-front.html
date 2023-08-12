@@ -10,14 +10,22 @@
     font-size: 100px;
     font-family: FandolKai;
   }
+  .instruction {
+    border: 1px solid black;
+    display: inline-block;
+    padding: 10px;
+  }
 </style>
 
 <script src="exercises.js"></script>
 <script>
   clearAllIntervals()
-
   var data = getAllAnkiFields()
   var parent = document.getElementById('qa')
+
+  var instruction = document.createElement('div')
+  instruction.innerHTML = '<b>西语翻译</b>是什么？'
+  instruction.classList.add('instruction')
 
   var identifier = document.createElement('div')
   identifier.textContent = 'Word ID: ' + data['word-identifier']
@@ -37,6 +45,7 @@
   parent.appendChild(pinyin)
   parent.appendChild(lexicalCategory)
   parent.appendChild(simplifiedChineseCharacters)
+  parent.appendChild(instruction)
 
   // Play audio when opening the card
   var audio = new Audio(data['audio-file'])
