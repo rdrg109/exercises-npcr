@@ -5,9 +5,6 @@
 <my-anki-field name="spanish-translation">{{spanish translation}}</my-anki-field>
 <my-anki-field name="audio-file">{{audio file}}</my-anki-field>
 
-<style>
-</style>
-
 <script src="exercises.js"></script>
 <script src="exercises-npcr.js"></script>
 <script>
@@ -15,20 +12,11 @@
   var data = getAllAnkiFields()
   var parent = document.getElementById('qa')
 
-  var a = new WordGueser()
+  var a = new WordAttributeGuesser()
   a.data = data
   a.missingField = 'spanish-translation'
 
-  parent.appendChild(a.getFields())
-
-  // Play audio when opening the card
-  var audio = new Audio(data['audio-file'])
-  audio.play()
-  // Play audio every few seconds
-  setInterval(function() {
-    var audio = new Audio(data['audio-file'])
-    audio.play()
-  }, 5000)
-
+  parent.appendChild(a.getContainer())
+  playAudioRepeatedly(data['audio-file'])
 </script>
 
