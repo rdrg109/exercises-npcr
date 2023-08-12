@@ -1,7 +1,3 @@
-description: |
-  The front back contains the pinyin, spanish translation and the
-  lexical category. The user needs to guess the simplified chinese
-  characters.
 fields:
   - name: word identifier
   - name: simplified chinese characters
@@ -9,3 +5,10 @@ fields:
   - name: pinyin
   - name: spanish translation
   - name: audio file
+templates:
+  - id: 1
+    description: Guess spanish translation
+  - id: 2
+    description: Guess lexical category
+  - id: 3
+    description: Guess chinese characters

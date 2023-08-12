@@ -29,13 +29,14 @@
   var spanishTranslation = document.createElement('div')
   spanishTranslation.textContent = data['spanish-translation']
 
-  var lexicalCategory = document.createElement('div')
-  lexicalCategory.textContent = data['lexical-category']
+  var simplifiedChineseCharacters = document.createElement('div')
+  simplifiedChineseCharacters.textContent = data['simplified-chinese-characters']
+  simplifiedChineseCharacters.classList.add('simplified-chinese-characters')
 
   parent.appendChild(identifier)
   parent.appendChild(pinyin)
   parent.appendChild(spanishTranslation)
-  parent.appendChild(lexicalCategory)
+  parent.appendChild(simplifiedChineseCharacters)
 
   // Play audio when opening the card
   var audio = new Audio(data['audio-file'])

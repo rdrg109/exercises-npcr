@@ -1,0 +1,50 @@
+<my-anki-field name="word-identifier">{{word identifier}}</my-anki-field>
+<my-anki-field name="simplified-chinese-characters">{{simplified chinese characters}}</my-anki-field>
+<my-anki-field name="lexical-category">{{lexical category}}</my-anki-field>
+<my-anki-field name="pinyin">{{pinyin}}</my-anki-field>
+<my-anki-field name="spanish-translation">{{spanish translation}}</my-anki-field>
+<my-anki-field name="audio-file">{{audio file}}</my-anki-field>
+
+<style>
+  .simplified-chinese-characters {
+    font-size: 100px;
+    font-family: FandolKai;
+  }
+</style>
+
+<script src="exercises.js"></script>
+<script>
+  clearAllIntervals()
+
+  var data = getAllAnkiFields()
+  var parent = document.getElementById('qa')
+
+  var identifier = document.createElement('div')
+  identifier.textContent = 'Word ID: ' + data['word-identifier']
+  identifier.classList.add('exercises-exercise-identifier')
+
+  var pinyin = document.createElement('div')
+  pinyin.textContent = data['pinyin']
+
+  var spanishTranslation = document.createElement('div')
+  spanishTranslation.textContent = data['spanish-translation']
+
+  var lexicalCategory = document.createElement('div')
+  lexicalCategory.textContent = data['lexical-category']
+
+  parent.appendChild(identifier)
+  parent.appendChild(pinyin)
+  parent.appendChild(spanishTranslation)
+  parent.appendChild(lexicalCategory)
+
+  // Play audio when opening the card
+  var audio = new Audio(data['audio-file'])
+  audio.play()
+  // Play audio every few seconds
+  setInterval(function() {
+    var audio = new Audio(data['audio-file'])
+    audio.play()
+  }, 5000)
+
+</script>
+
