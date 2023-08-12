@@ -31,8 +31,6 @@ var lexicalCategories = [
   {'acronym': 'Nu.', 'es': 'Numeral', 'zh-hans': '数词', 'pinyin': 'shùcí'}
 ]
 
-
-
 var WordAttributeGuesser = class WordAttributeGuesser {
   constructor() {
     this.data = null
@@ -72,7 +70,7 @@ var WordAttributeGuesser = class WordAttributeGuesser {
     return instruction
   }
 
-  getFields() {
+  getContainer() {
     var container = document.createElement('div')
     container.style.textAlign = 'left'
     container.style.display = 'inline-block'
