@@ -1,6 +1,6 @@
 <my-anki-field name="id">{{id}}</my-anki-field>
-<my-anki-field name="dialogue">{{dialogue}}</my-anki-field>
-<my-anki-field name="dialogue-audio">{{dialogue audio}}</my-anki-field>
+<my-anki-field name="content-transcript">{{content transcript}}</my-anki-field>
+<my-anki-field name="content-audio">{{content audio}}</my-anki-field>
 <my-anki-field name="exercise-1-id">{{exercise 1 id}}</my-anki-field>
 <my-anki-field name="exercise-1-number">{{exercise 1 number}}</my-anki-field>
 <my-anki-field name="exercise-1-question">{{exercise 1 question}}</my-anki-field>
@@ -19,20 +19,14 @@
 <script src="exercises-npcr.js"></script>
 <script src="anki-persistence-v1.1.8-minified.js"></script>
 <script>
-  var data = getAllAnkiFields()
-  var parent = document.getElementById('qa')
-
-  var a = new dialogueMultipleMultipleChoiceQuestions()
-  a.data = data
-  a.exercisesToDisplay = [
-    {
-      exerciseNumber: 1,
-      idForInput: 'input-1'
-    }
-  ]
-  a.cssClassDialogue = 'dialogue'
-  a.cssClassExerciseContainer = 'exercises-npcr-multiple-choice-question'
-
-  parent.appendChild(a.getNode())
-  addEventListenersToInputTextWhenInput(['input-1'])
+  var a = new contentWithAudioMultipleChoiceQuestions()
+  a.data = getAllAnkiFields()
+  a.parentNode = document.getElementById('qa')
+  a.funcOnContent = removeAudiosInString
+  a.cssClassForContent = 'dialogue'
+  a.cssClassForExerciseContainer = 'exercises-npcr-multiple-choice-question'
+  a.exercisesToDisplay = [1]
+  a.showTranscriptOfContent = false
+  a.showTranscriptOfQuestions = false
+  a.display()
 </script>
