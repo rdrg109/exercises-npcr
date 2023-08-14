@@ -16,7 +16,7 @@
 <my-anki-field name="exercise-5-answer">{{exercise 5 answer}}</my-anki-field>
 
 <script src="exercises.js"></script>
-<script src="exercises-hsk.js"></script>
+<script src="exercises-npcr.js"></script>
 <script src="anki-persistence-v1.1.8-minified.js"></script>
 <script>
   var data = getAllAnkiFields()
@@ -31,7 +31,7 @@
     }
   ]
   a.cssClassDialogue = 'dialogue'
-  a.cssClassExerciseContainer = 'exercises-hsk-multiple-choice-question'
+  a.cssClassExerciseContainer = 'exercises-npcr-multiple-choice-question'
 
   parent.appendChild(a.getNode())
   addEventListenersToInputTextWhenInput(['input-5'])
