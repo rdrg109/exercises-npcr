@@ -1,0 +1,48 @@
+.exercises-npcr-multiple-choice-question {
+  border: 1px solid black;
+  display: inline-block;
+  margin: auto;
+  padding: 10px;
+}
+
+.exercises-npcr-multiple-choice-question
+.exercise-number {
+  display: inline-block;
+  font-weight: bold;
+  padding: 0 10px 0 0;
+}
+
+.exercises-npcr-multiple-choice-question
+.exercise-number:after {
+  content: '.';
+}
+
+.exercises-npcr-multiple-choice-question
+.exercise-number-plus-question {
+  text-align: left;
+}
+
+.exercises-npcr-multiple-choice-question
+.question {
+  display: inline-block;
+}
+
+.exercises-npcr-multiple-choice-question
+.alternatives {
+  text-align: left;
+  display: table;
+}
+
+.exercises-npcr-multiple-choice-question
+.alternative
+.label {
+  font-weight: bold;
+  display: inline-block;
+  padding: 0 5px 0 0;
+}
+
+.exercises-npcr-multiple-choice-question
+.alternative
+.content {
+  display: inline-block;
+}
