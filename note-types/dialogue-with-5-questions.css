@@ -1,0 +1,13 @@
+@import url('exercises-hsk.css');
+
+.card {
+  font-family: arial;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  background-color: white;
+}
+
+.dialogue {
+  text-align: left;
+}
