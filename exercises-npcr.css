@@ -46,3 +46,36 @@
 .content {
   display: inline-block;
 }
+
+/*********************************************/
+/* exercises-npcr-guess-missing-part-in-text */
+/*********************************************/
+
+.exercises-npcr-guess-missing-part-in-text {
+  display: inline-block;
+  text-align: left;
+  padding: 10px;
+}
+
+.exercises-npcr-guess-missing-part-in-text
+.missing-part {
+  background-color: blue;
+  padding: 20px;
+}
+
+.exercises-npcr-guess-missing-part-in-text
+.sentence {
+  text-decoration: underline;
+  text-underline-offset: 6px;
+  margin: 4px;
+}
+
+.exercises-npcr-guess-missing-part-in-text
+.sentence:hover {
+  background-color: yellow;
+}
+
+.exercises-npcr-guess-missing-part-in-text
+input {
+  font-size: 25px;
+}
