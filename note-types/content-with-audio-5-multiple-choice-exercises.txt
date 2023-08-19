@@ -1,8 +1,8 @@
 id
-content transcript
+
+content body
 content audio
 
-# Exercise 1
 exercise 1 id
 exercise 1 number
 exercise 1 question
@@ -17,7 +17,6 @@ exercise 1 alternative 4 label
 exercise 1 alternative 4 content
 exercise 1 answer
 
-# exercise 2
 exercise 2 id
 exercise 2 number
 exercise 2 question
@@ -32,7 +31,6 @@ exercise 2 alternative 4 label
 exercise 2 alternative 4 content
 exercise 2 answer
 
-# exercise 3
 exercise 3 id
 exercise 3 number
 exercise 3 question
@@ -47,7 +45,6 @@ exercise 3 alternative 4 label
 exercise 3 alternative 4 content
 exercise 3 answer
 
-# exercise 4
 exercise 4 id
 exercise 4 number
 exercise 4 question
@@ -62,7 +59,6 @@ exercise 4 alternative 4 label
 exercise 4 alternative 4 content
 exercise 4 answer
 
-# exercise 5
 exercise 5 id
 exercise 5 number
 exercise 5 question
