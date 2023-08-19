@@ -47,35 +47,42 @@
   display: inline-block;
 }
 
-/*********************************************/
-/* exercises-npcr-guess-missing-part-in-text */
-/*********************************************/
+/******************************************/
+/* exercises-npcr-text-missing-characters */
+/******************************************/
 
-.exercises-npcr-guess-missing-part-in-text {
+.exercises-npcr-text-missing-characters {
   display: inline-block;
   text-align: left;
   padding: 10px;
+  border: 1px solid black;
 }
 
-.exercises-npcr-guess-missing-part-in-text
+.exercises-npcr-text-missing-characters
 .missing-part {
   background-color: blue;
   padding: 20px;
 }
 
-.exercises-npcr-guess-missing-part-in-text
+.exercises-npcr-text-missing-characters
 .sentence {
   text-decoration: underline;
   text-underline-offset: 6px;
   margin: 4px;
 }
 
-.exercises-npcr-guess-missing-part-in-text
+.exercises-npcr-text-missing-characters
 .sentence:hover {
   background-color: yellow;
 }
 
-.exercises-npcr-guess-missing-part-in-text
-input {
+.exercises-npcr-text-missing-characters
+.input-for-missing-characters {
   font-size: 25px;
+  border: 3px solid black;
+}
+
+.exercises-npcr-text-missing-characters
+.buttons-container {
+  text-align: center;
 }
