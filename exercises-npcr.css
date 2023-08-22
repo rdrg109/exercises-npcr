@@ -69,6 +69,11 @@
 }
 
 .exercises-npcr-text-missing-characters
+.punctuation-mark-close-to-missing-characters {
+  margin: 4px;
+}
+
+.exercises-npcr-text-missing-characters
 .sentence:hover {
   background-color: yellow;
 }
