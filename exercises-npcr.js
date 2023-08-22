@@ -31,27 +31,18 @@ var lexicalCategories = [
   {'acronym': 'Nu.', 'es': 'Numeral', 'zh-hans': '数词', 'pinyin': 'shùcí'}
 ]
 
-var WordAttributeGuesser = class WordAttributeGuesser {
-  constructor() {
-    this.data = null
-    this.missingField = null
-    this.instruction = null
-    this.labelsOfAttributes = {
-      'spanish-translation': '西语翻译',
-      'lexical-category': '词性',
-      'simplified-chinese-characters': '汉字',
-      'pinyin': '拼音'
-    }
+var guessWordAttribute = class guessWordAttribute extends exercise {
+  getMissingAttribute() {
+    return this.attributes.filter((x) => x['field-name'] == this.missingAttribute)[0]
   }
-
   getLabelOfMissingAttribute() {
-    return this.labelsOfAttributes[this.missingField]
+    return this.getMissingAttribute()['label']
   }
 
   getAttributeNode(label, content) {
     var attributeNode = document.createElement('div')
     var labelNode = document.createElement('div')
-    labelNode.textContent = label + '：'
+    labelNode.textContent = label + this.separatorOfLabelAndContent
     labelNode.style.display = 'inline-block'
     var contentNode = document.createElement('div')
     contentNode.textContent = content
@@ -61,54 +52,127 @@ var WordAttributeGuesser = class WordAttributeGuesser {
     return attributeNode
   }
 
-  getInstruction() {
-    var instruction = document.createElement('div')
-    instruction.innerHTML = '<b>' + this.getLabelOfMissingAttribute() + '</b>是什么？'
-    instruction.style.border = '1px solid black'
-    instruction.style.display = 'inline-block'
-    instruction.style.padding = '10px'
-    return instruction
+  check() {
+    var attribute = this.attributes.filter((x) => x['field-name'] == this.missingAttribute)[0]
+    var node = null
+    if(attribute['func-back'])
+      node = attribute['func-back'](this.data[attribute['field-name']])
+    else if(attribute['func'])
+      node = attribute['func'](this.data[attribute['field-name']])
+    else {
+      node = document.createElement('div')
+      node.textContent = this.data[this.missingAttribute]
+    }
+    // We add a class to the main container of the answer so that we
+    // can refer to the same context when naming classes in CSS
+    var line = document.createElement('hr')
+    this.nodeContainer.appendChild(line)
+    this.nodeContainer.appendChild(node)
   }
 
-  getContainer() {
-    var container = document.createElement('div')
-    container.style.textAlign = 'left'
-    container.style.display = 'inline-block'
-    container.style.margin = 'auto'
-
-    if(this.missingField != 'simplified-chinese-characters')
-      container.appendChild(this.getAttributeNode('汉字', data['simplified-chinese-characters']))
-
-    if(this.missingField != 'pinyin')
-      container.appendChild(this.getAttributeNode('拼音', data['pinyin']))
-
-    if(this.missingField != 'lexical-category') {
-      var label = document.createElement('div')
-      label.textContent = '词性：'
-      var content = document.createElement('div')
-      var lexicalCategoryInfo = lexicalCategories.find(x => x['acronym'] == data['lexical-category'])
-      var n1 = document.createElement('div')
-      n1.textContent = '缩写：' + lexicalCategoryInfo['acronym']
-      var n2 = document.createElement('div')
-      n2.textContent = '西语：' + lexicalCategoryInfo['es']
-      var n3 = document.createElement('div')
-      n3.textContent = '汉语：' + lexicalCategoryInfo['zh-hans']
-      var n4 = document.createElement('div')
-      n4.textContent = '拼音：' + lexicalCategoryInfo['pinyin']
-      content.appendChild(n1)
-      content.appendChild(n2)
-      content.appendChild(n3)
-      content.appendChild(n4)
-      content.style.padding = '0 0 0 30px'
-      container.appendChild(label)
-      container.appendChild(content)
+  getNode() {
+    var nodeContainer = document.createElement('div')
+    this.nodeContainer = nodeContainer
+    if(this.cssClassForContainer)
+      nodeContainer.classList.add(this.cssClassForContainer)
+    for(const attribute of this.attributes) {
+      if(attribute['field-name'] == this.missingAttribute)
+        continue
+      var node = null
+      if(attribute['func'])
+        node = attribute['func'](this.data[attribute['field-name']])
+      else
+        node = this.getAttributeNode(attribute['label'], this.data[attribute['field-name']])
+      nodeContainer.appendChild(node)
     }
-
-    if(this.missingField != 'spanish-translation') {
-      container.appendChild(this.getAttributeNode('西语翻译', data['spanish-translation']))
+    nodeContainer.appendChild(this.getInstruction())
+    var attribute = this.getMissingAttribute()
+    if(attribute['func-front']) {
+      node = attribute['func-front'](this.data[attribute['field-name']])
+      nodeContainer.appendChild(node)
     }
+    return nodeContainer
+  }
+}
 
-    container.appendChild(this.getInstruction())
-    return container
+var guessWordAttributeNPCR = class guessWordAttributeNPCR extends guessWordAttribute {
+  getInstruction() {
+    var node = document.createElement('div')
+    node.classList.add('instruction')
+    var span1 = document.createElement('span')
+    span1.classList.add('missing-attribute-label')
+    node.appendChild(span1)
+    span1.textContent = this.getLabelOfMissingAttribute()
+    var span2 = document.createElement('span')
+    node.appendChild(span2)
+    span2.textContent = '是什么？'
+    return node
+  }
+  getNodeSimplifiedChineseCharactersFront(chineseCharacters) {
+    var input = document.createElement('input')
+    input.type = 'text'
+    input.id = 'input'
+    addEventListenersToInputTextWhenInputNode(input)
+    return input
+  }
+  getNodeSimplifiedChineseCharactersBack(chineseCharacters) {
+    checkUserInputAgainstAnswerCaseInsensitive('input', chineseCharacters)
+    var nodeContainer = document.createElement('div')
+    nodeContainer.classList.add('chinese-characters')
+    nodeContainer.textContent = chineseCharacters
+    return nodeContainer
+  }
+  getNodeLexicalCategory(lexicalCategory) {
+    var nodeContainer = document.createElement('div')
+    nodeContainer.classList.add('lexical-category')
+    var label = document.createElement('div')
+    label.classList.add('label')
+    nodeContainer.appendChild(label)
+    label.textContent = '词性：'
+    var content = document.createElement('div')
+    content.classList.add('content')
+    nodeContainer.appendChild(content)
+
+    var lexicalCategoryInfo = lexicalCategories.find(x => x['acronym'] == lexicalCategory)
+    var n1 = document.createElement('div')
+    n1.textContent = '汉语：' + lexicalCategoryInfo['zh-hans']
+    var n2 = document.createElement('div')
+    n2.textContent = '拼音：' + lexicalCategoryInfo['pinyin']
+    var n3 = document.createElement('div')
+    n3.textContent = '西语：' + lexicalCategoryInfo['es']
+    var n4 = document.createElement('div')
+    n4.textContent = '缩写：' + lexicalCategoryInfo['acronym']
+    content.appendChild(n1)
+    content.appendChild(n2)
+    content.appendChild(n3)
+    content.appendChild(n4)
+    return nodeContainer
+  }
+  constructor() {
+    super()
+    this.cssClassForContainer = 'exercises-npcr-guess-word-attribute'
+    this.separatorOfLabelAndContent = '：'
+    this.attributes = [
+      {
+        'field-name': 'simplified-chinese-characters',
+        'label': '汉字',
+        'func-front': this.getNodeSimplifiedChineseCharactersFront,
+        'func-back': this.getNodeSimplifiedChineseCharactersBack
+      },
+      {
+        'field-name': 'pinyin',
+        'label': '拼音'
+      },
+      {
+        'field-name':
+        'spanish-translation',
+        'label': '西语翻译'
+      },
+      {
+        'field-name': 'lexical-category',
+        'label': '词性',
+        'func': this.getNodeLexicalCategory
+      }
+    ]
   }
 }
