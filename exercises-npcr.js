@@ -91,7 +91,15 @@ var guessWordAttribute = class guessWordAttribute extends exercise {
       node = attribute['func-front'](this.data[attribute['field-name']])
       nodeContainer.appendChild(node)
     }
+    this.startAudioLoop()
     return nodeContainer
+  }
+
+  startAudioLoop() {
+    this.loopedAudio = new loopedAudio()
+    this.loopedAudio.file = this.data[this.fieldNameAudio]
+    this.loopedAudio.nodeContainer = this.nodeContainer
+    this.loopedAudio.startLoop()
   }
 }
 
@@ -150,6 +158,7 @@ var guessWordAttributeNPCR = class guessWordAttributeNPCR extends guessWordAttri
   }
   constructor() {
     super()
+    this.fieldNameAudio = 'audio'
     this.cssClassForContainer = 'exercises-npcr-guess-word-attribute'
     this.separatorOfLabelAndContent = '：'
     this.attributes = [
