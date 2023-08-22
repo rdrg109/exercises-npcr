@@ -83,3 +83,51 @@
 .buttons-container {
   text-align: center;
 }
+
+/***************************************/
+/* exercises-npcr-guess-word-attribute */
+/***************************************/
+
+.exercises-npcr-guess-word-attribute {
+  text-align: left;
+  display: inline-block;
+  margin: auto;
+}
+
+.exercises-npcr-guess-word-attribute
+.instruction {
+  border: 1px solid black;
+  display: table;
+  padding: 10px;
+}
+
+.exercises-npcr-guess-word-attribute
+.instruction
+.missing-attribute-label {
+  font-weight: bold;
+}
+
+.exercises-npcr-guess-word-attribute
+.instruction
+.missing-attribute-label {
+  font-weight: bold;
+}
+
+.exercises-npcr-guess-word-attribute
+.chinese-characters {
+  font-size: 100px;
+  font-family: STKaiti;
+}
+
+.exercises-npcr-guess-word-attribute
+.lexical-category {
+  text-align: left;
+  display: inline-block;
+  margin: auto;
+}
+
+.exercises-npcr-guess-word-attribute
+.lexical-category
+.content {
+  padding: 0 0 0 20px;
+}
