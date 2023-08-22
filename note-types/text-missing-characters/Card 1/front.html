@@ -1,4 +1,4 @@
-<my-anki-field name="audio-identifier">{{audio identifier}}</my-anki-field>
+<my-anki-field name="audio-id">{{audio id}}</my-anki-field>
 <my-anki-field name="content">{{content}}</my-anki-field>
 
 <script src="anki-persistence-v1.1.8-minified.js"></script>
@@ -6,7 +6,7 @@
 <script>
   if (typeof a !== 'undefined')
     a.loopedAudio.pause()
-  var a = new contentWithInlineAudio()
-  a.cssClassForContainer = 'exercises-npcr-guess-missing-part-in-text'
+  var a = new textMissingCharacters()
+  a.cssClassForContainer = 'exercises-npcr-text-missing-characters'
   a.display()
 </script>
