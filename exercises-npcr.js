@@ -32,9 +32,15 @@ var lexicalCategories = [
 ]
 
 var guessWordAttribute = class guessWordAttribute extends exercise {
+  constructor() {
+    super()
+    clearAllIntervals()
+  }
+
   getMissingAttribute() {
     return this.attributes.filter((x) => x['field-name'] == this.missingAttribute)[0]
   }
+
   getLabelOfMissingAttribute() {
     return this.getMissingAttribute()['label']
   }
