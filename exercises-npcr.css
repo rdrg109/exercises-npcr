@@ -58,6 +58,21 @@
 }
 
 .exercises-npcr-text-missing-characters
+.speaker,
+.exercises-npcr-text-missing-characters
+.separator,
+.exercises-npcr-text-missing-characters
+.segment {
+  display: inline-block;
+}
+
+
+.exercises-npcr-text-missing-characters
+.speaker {
+  font-weight: bold;
+}
+
+.exercises-npcr-text-missing-characters
 .missing-part {
   background-color: blue;
   padding: 20px;
@@ -69,17 +84,12 @@
 }
 
 .exercises-npcr-text-missing-characters
-.punctuation-mark-close-to-missing-characters {
-  margin: 4px;
-}
-
-.exercises-npcr-text-missing-characters
-.sentence:hover {
+.segment:hover {
   background-color: yellow;
 }
 
 .exercises-npcr-text-missing-characters
-.input-for-missing-characters {
+input[type="text"] {
   font-size: 25px;
   border: 3px solid black;
 }
