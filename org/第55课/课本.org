@@ -1,5 +1,13 @@
 * 一、课文
 ** 一
-*** 内容
+*** 转录
+:PROPERTIES:
+:EXPORT-ID: ae0d9ec5-a955-446d-9626-8515369ef35b
+:END:
+*** 音频
 ** 二
-*** 内容
+*** 转录
+:PROPERTIES:
+:EXPORT-ID: ae0d9ec5-a955-446d-9626-8515369ef35b
+:END:
+*** 音频
