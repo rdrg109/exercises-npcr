@@ -179,8 +179,7 @@ var npcrGguessWordAttribute = class guessWordAttributeNPCR extends guessWordAttr
         'label': '拼音'
       },
       {
-        'field-name':
-        'spanish-translation',
+        'field-name': 'spanish-translation',
         'label': '西语翻译'
       },
       {
