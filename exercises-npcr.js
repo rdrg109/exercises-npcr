@@ -109,7 +109,7 @@ var guessWordAttribute = class guessWordAttribute extends exercise {
   }
 }
 
-var guessWordAttributeNPCR = class guessWordAttributeNPCR extends guessWordAttribute {
+var npcrGguessWordAttribute = class guessWordAttributeNPCR extends guessWordAttribute {
   getInstruction() {
     var node = document.createElement('div')
     node.classList.add('instruction')
