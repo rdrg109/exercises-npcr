@@ -57,15 +57,32 @@
   padding: 10px;
 }
 
+/* Indent the first sentence in each line. */
 .exercises-npcr-text-missing-characters
-.speaker,
+.prose
+.line
+.segment:first-child {
+  margin-left: 2em;
+}
+
+/* Separation between lines */
 .exercises-npcr-text-missing-characters
-.separator,
-.exercises-npcr-text-missing-characters
-.segment {
+.prose
+.line:not(:first-child) {
+  padding-top: 1em;
+}
+
+/* Show speaker, separator and segment in the same line*/
+.exercises-npcr-text-missing-characters .speaker,
+.exercises-npcr-text-missing-characters .separator,
+.exercises-npcr-text-missing-characters .segment {
   display: inline-block;
 }
 
+.exercises-npcr-text-missing-characters
+.char-outside-hidden-segment {
+  display: inline-block;
+}
 
 .exercises-npcr-text-missing-characters
 .speaker {
