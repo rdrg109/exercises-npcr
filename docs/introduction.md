@@ -19,7 +19,7 @@ The simplest way to download a Github repository is through a ZIP file.
 3. Import the note types in Anki
   + First, press "Tools" > "Import note types"
   + Second, navigate to the directory `note-types` that exists in the files that you downloaded from the Github repository
-  + Finally click `Choose...`
+  + Finally click `Select Folder`
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/rdrg109/exercises-npcr/master/docs/img/import-note-types-import-from.svg" width="500">
