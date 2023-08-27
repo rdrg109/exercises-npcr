@@ -191,3 +191,13 @@ var guessWordAttributeNPCR = class guessWordAttributeNPCR extends guessWordAttri
     ]
   }
 }
+
+var npcrTextMissingCharacters = class npcrTextMissingCharacters extends textMissingCharacters {
+  constructor() {
+    super()
+    this.indicatorForHiddenSegment = '🟦'
+    this.cssClassForContainer = 'exercises-npcr-text-missing-characters'
+    this.suffixesToShowOutsideOfSegment = ['，', '。', '？', '！', '：']
+    this.charactersToOmitWhenComparingWithAnswer = ['，', '。', '？', '！', '“', '”', '：', '《', '》']
+  }
+}
