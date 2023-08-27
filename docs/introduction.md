@@ -5,7 +5,7 @@
 One way install add-ons in Anki is by first, pressing "Tools" > "Add-ons" > "Get Add-ons..." and inserting the code of the add-on you want to install (the code of the "Import Note Types" add-on is 1270902001).
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/rdrg109/exercises-npcr/master/docs/img/install-add-on.svg" width="500">
+  <img src="https://raw.githubusercontent.com/rdrg109/exercises-npcr/master/docs/img/install-add-on.png" width="500">
 <p>
 
 2. Download the files from the Github repository [(URL)](https://github.com/rdrg109/exercises-npcr).
@@ -13,7 +13,7 @@ One way install add-ons in Anki is by first, pressing "Tools" > "Add-ons" > "Get
 The simplest way to download a Github repository is through a ZIP file.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/rdrg109/exercises-npcr/master/docs/img/download-repo-as-zip.svg" width="500">
+  <img src="https://raw.githubusercontent.com/rdrg109/exercises-npcr/master/docs/img/download-repo-as-zip.png" width="500">
 <p>
 
 3. Import the note types in Anki
@@ -22,11 +22,11 @@ The simplest way to download a Github repository is through a ZIP file.
   + Finally click `Select Folder`
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/rdrg109/exercises-npcr/master/docs/img/import-note-types-import-from.svg" width="500">
+  <img src="https://raw.githubusercontent.com/rdrg109/exercises-npcr/master/docs/img/import-note-types-import-from.png" width="500">
 <p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/rdrg109/exercises-npcr/master/docs/img/import-note-types-choose-dir.svg" width="500">
+  <img src="https://raw.githubusercontent.com/rdrg109/exercises-npcr/master/docs/img/import-note-types-choose-dir.png" width="500">
 <p>
 
 4. Download the directory `collection.media` and the file `notes.txt` from [this URL](https://drive.google.com/drive/folders/1yKsIPemMsQEQ_VLI1Wah2CgFIdSvgSzl)
